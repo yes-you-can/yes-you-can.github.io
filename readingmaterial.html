@@ -1,0 +1,229 @@
+<!-- Not entirely sure what to put in here -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <title>Yes you can-Reading Material</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+
+    <meta charset="utf-8">
+    <!-- No idea why this is, it just is -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <!-- Load JS -->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+    <!-- Custom Javascript for article loading -->
+    <script src="js/article.js"></script>
+   
+    <!-- Awesome Font is awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS/FONTS/JS -->
+    <link href="custom-css/custom.css" rel="stylesheet">
+
+    <body>
+        <div class="container text-center">
+            <div class="row">
+                <div class="span12">
+                    <h1 class="text-left">Yes you can<br />
+                        <small>clear the Civil Services Exam.</small>
+                    </h1>
+                </div>
+                <div class="span12">
+                    <hr />
+                </div>
+                <div class="span12">
+                    <div class="navbar">
+                        <ul class="nav">
+                            <li class="active"><a href="index.html"><i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
+                            <li><a href="thelearningapp.html">The Learning App</a></li>
+			    <li><a href="tests.html">Online Tests</a></li>
+                            <li><a href="readingmaterial.html">Reading Material</a></li>
+                            <li class="active"><a href="contact.html">Get in touch</a></li>
+                        </ul>
+                        <ul class="pull-right nav">
+                            <li><a href="aboutus.html"><i class="fa fa-pencil fa-fw"></i>&nbsp;About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <hr />
+            </div>
+
+            <!-- Content -->
+            <div class="row spacer">
+            </div>
+            
+            <div class="row">
+                <div class="span4">
+                    <h2 class="text-left">Reading Material</h2>
+                    <div class="spacer"></div>
+                    <div class="tabbable tabs-left">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#history" data-toggle="tab">
+                                <i class="fa fa-3x fa-fw fa-institution"></i><br />History</a>
+                            </li>
+                            
+                            <li><a href="#current" data-toggle="tab">
+                                <i class="fa fa-3x fa-fw fa-newspaper-o "></i><br />Current Affairs</a>
+                            </li>
+                            
+                            <li><a href="#misc" data-toggle="tab">
+                                <i class="fa fa-3x fa-fw fa-microphone "></i><br /> Polity</a>
+                            </li>
+			    
+                            <li><a href="#misc" data-toggle="tab">
+                                <i class="fa fa-3x fa-fw fa-globe "></i><br /> Geograhy</a>
+                            </li>
+			    <li><a href="#misc" data-toggle="tab">
+                                <i class="fa fa-3x fa-fw fa-motorcycle"></i><br /> Agri-Ecology</a>
+                            </li>
+			    <li><a href="#misc" data-toggle="tab">
+                                <i class="fa fa-3x fa-fw fa-industry"></i><br /> Economy</a>
+                            </li> 
+			    <li><a href="#misc" data-toggle="tab">
+                                <i class="fa fa-3x fa-fw fa-soccer-ball-o"></i><br /> Sports</a>
+                            </li>
+                            <li><a href="#misc" data-toggle="tab">
+                                <i class="fa fa-3x fa-fw fa-balance-scale"></i><br /> Freedom Struggle</a>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="History">
+                                <h3 class="text-left">
+                                    History<br/>
+                                    <small>Ancient Hisorty</small>
+                                </h3>
+                                <ul>
+                                    <li class="text-left" id="indus_valley" onClick="load_article(this.id)">Indus Valley</li>
+                                    <li class="text-left"id="vedic_age" onClick="load_article(this.id)">Vedic Age</li>
+				    <li class="text-left"id="sangam_age" onClick="load_article(this.id)">Sangam Age</li>
+				    <li class="text-left"id="the_gupta_age" onClick="load_article(this.id)">The Gupta Age</li>
+				    <li class="text-left"id="the_maurayas" onClick="load_article(this.id)">The Maurayas</li>
+                                </ul>
+                                <h3 class="text-left">
+                                    <small>Medieval History</small>
+                                    </h3>
+                                <ul>
+                                    <li class="text-left"id="khiljis" onClick="load_article(this.id)">Khiljis </li>
+                                    <li class="text-left"id="tuglaqs" onClick="load_article(this.id)">Tuglaqs</li>
+                                    <li class="text-left"id="mughals" onClick="load_article(this.id)">Mughals</li>
+                                </ul>
+                                <h3 class="text-left">
+                                    <small>Modern History</small>
+                                </h3>
+                                <ul>
+                                    <li class="text-left"id="world_war_1" onClick="load_article(this.id)">World War-I</li>
+                                    <li class="text-left"id="world_war_2" onClick="load_article(this.id)">World War-II</li>
+                                    <li class="text-left"id="russian_revolution" onClick="load_article(this.id)">Russian Revolution</li>
+                                </ul>
+                                <h3 class="text-left">
+                                    <small>Modern world History</small>
+                                    </h3>
+                                <ul>
+                                    <li class="text-left"id="1857_revolt" onClick="load_article(this.id)"">1857 Revolt</li>
+                                    <li class="text-left"id="rise_of_gandhi" onClick="load_article(this.id)">Rise of Gandhi</li>
+                                    <li class="text-left"id="dandi_march" onClick="load_article(this.id)">Dandi March</li>
+                                    <li class="text-left"id="quit_india" onClick="load_article(this.id)">Quit India</li>
+                                </ul>
+
+
+                            </div>
+                            <div class="tab-pane" id="current">
+                                <h3 class="text-left">
+                                    Current Affairs<br />
+                                </h3>
+                            <ul>
+                                <br />
+                            <h4 class="text-left">Awards</h4>
+				<li class="text-left">Science</li>
+                                <li class="text-left">Nobel Prize</li>
+                                <li class="text-left">Film Awards</li>
+                                <li class="text-left">Sports Awards</li>
+                            </ul>
+                            <br />
+                            <h4 class="text-left"><small>Text Editors and IDEs (in order)</small></h4>
+                            <ul>
+                                <li class="text-left">Vim</li>
+                                <li class="text-left">Atom</li>
+                                <li class="text-left">Eclipse</li>
+                                <li class="text-left">CodeBlocks</li>
+                                <li class="text-left">Emacs</li>
+                            </ul>
+                            <br />
+                            <h4 class="text-left"><small>Operating Systems (in order of preference)</small></h4>
+                            <ul>
+                                <li class="text-left">Linux</li>
+                                <li class="text-left">OSX</li>
+                                <li class="text-left">Windows</li>
+                            </ul>
+                            </div>
+                            <div class="tab-pane" id="misc">
+                                <h3 class="text-left">
+                                    Miscellany<br />
+                                <small>Various Tools and things I can work with</small>
+                            </h3>
+                            <br />
+                            <h4 class="text-left"><small>Version Control</small></h4>
+                            <ul>
+                                <li class="text-left"><i class="fa fa-fw fa-github"></i> Git</li>
+                                <li class="text-left"><i class="fa fa-fw fa-bitbucket"></i> Mercurial</li>
+                            </ul>
+                            <!--
+                            <h4 class="text-left"><small>Servers</small></h4>
+                            <ul>
+                                <li class="text-left">Apache</li>
+                            </ul>
+                            <h4 class="text-left"><small>Databases</small></h4>
+                            <ul>
+                                <li class="text-left">MySQL/</li>
+                                <li class="text-left">SQLite</li>
+                                <li class="text-left">Amazon RDS</li>
+                            </ul>
+                            -->
+                            <h4 class="text-left"><small>Tools</small></h4>
+                            <ul>
+                                <li class="text-left">GNU Toolchain</li>
+                                <li class="text-left">Containers and VMs (Docker/Rkt, libvirt/KVM)</li>
+                                <li class="text-left">Random collection of network tools</li>
+                                <li class="text-left">Bugzilla, JIRA</li>
+                                <li class="text-left">LaTeX</li>
+                            </ul>
+                            <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="span8">
+                    <em class="lead">Article </em>
+                    <div class="spacer"></div>
+                    <div class="text-left span8 lead" id="article_container">
+                        <p>We bring to you easy to understand articles on various topics, to help build your basic and advanced understanding on the subject <br /><br />
+                   Cick on the topic link and then on the topic. </p>
+                    </div>
+                </div> 
+                </div>
+
+            <!-- Footer -->
+            <div class="row">
+                <div class="span12">
+                    <ul class="inline">
+                        <hr />
+                        <li>Credits:</li>
+                        <<li><a href="http://ffledgling.com/">Anhad Jai Singh<BR>senior software engineer</li>
+                        <li><a href="http://twitter.github.io/bootstrap/"><span class="icon-code"></span> Bootstrap </a></li>
+                        <li><a href="http://designmodo.github.io/Flat-UI/"><span class="icon-code"></span> Flat UI </a></li>
+                        <li><a href="http://fortawesome.github.io/Font-Awesome/"><span class="icon-flag-alt"></span> Awesome Font</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

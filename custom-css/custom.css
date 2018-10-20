@@ -1,0 +1,11 @@
+.spacer {
+    margin: 20px;
+}
+
+.image-small {
+    max-height: 80px;
+}
+
+.image-medium {
+    max-height: 400px;
+}
