@@ -4,6 +4,7 @@ Yes you can
 This is the repository for civil services aspirants website.
 It provides an introduction and resource link to various course materials.
 It is currently work in progress but is continously updated and new resouces added regularly. 
+Material may not be copied or published in any other format.
 Feedback always welcome.
 
 Attribution
